@@ -1,0 +1,25 @@
+%% Metaparámetros
+mostrar =
+% Numero de generaciones
+ngeneraciones = 10;
+% Tamaño de la poblacion
+tampop = 100;
+% Cantidad de individuos reproductores
+repro = 70; 
+% elitismo
+elite = 2;
+% probabilidad de mutacion
+pmut = 0.1;
+% metodo de seleccion
+% sel = ['truncamiento' 'rwsr' 'sus' 'torneo'];
+selo = 'sus';
+% metodo de cruce
+% cruce = ['onepoint' 'twopoint' 'uniforme' 'semiuniforme'];
+cruceo = 'uniforme';
+% metodo de mutacion
+% muta = ['bitstring' 'boundary' 'hipermut']
+mutao = 'boundary';
+% metodo de escalado
+% esca = ['lineal' 'sigma' 'boltzman' 'lrank' 'nrank' 'pnrank'];
+escao = 'lineal';
+SGA2
